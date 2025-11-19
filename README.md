@@ -1,2 +1,6 @@
-### Phishing Email Investigation Project 
-In this project, we will practically investigating phishing e-mail. There are 7 steps SOC L1 Analyst follow to investigate phishing e-mails. 
+**# Phishing Email Investigation Project **
+
+**##Project Overview -**
+
+> This project demonstrates a complete Phishing Email Investigation using the workflow of an L1 SOC Analyst.
+> The goal is to analyze a suspicious email’s metadata, authentication results, links, sender reputation, and overall risk to understand whether it is malicious. 
