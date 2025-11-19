@@ -24,97 +24,69 @@
 
 **2. Link & URL Inspection -**
 
-Without clicking:
-* Hover over URLs
-* Extract them safely
-* Analyze using tools like VirusTotal, URLScan, ANY.RUN
-  
-Check if the domain is suspicious, newly registered, or impersonating a brand
+* Without clicking:
+ - Hover over URLs
+   - Extract them safely
+     - Analyze using tools like VirusTotal, URLScan, ANY.RUN
+       - Check if the domain is suspicious, newly registered, or impersonating a brand
 
 **3. Attachment Analysis**
 
-If an attachment exists:
-
-Upload to sandbox (ANY.RUN, Joe Sandbox)
-
-Identify malware behavior (script execution, outbound connections)
+* If an attachment exists:
+* Upload to sandbox (ANY.RUN, Joe Sandbox)
+* Identify malware behavior (script execution, outbound connections)
 
 **4. Sender Reputation Check**
 
-Use tools to validate:
-
-Domain age
-
-WHOIS information
-
-Blacklist status
-
-Email service provider used
+* Use tools to validate:
+* Domain age
+* WHOIS information
+* Blacklist status
+* Email service provider used
 
 **# 5. User Impact Assessment**
 
-Confirm whether the user:
-
-Clicked the link
-
-Entered credentials
-
-Downloaded anything
+* Confirm whether the user:
+ - Clicked the link
+  - Entered credentials
+   - Downloaded anything
 
 **# 6. Take Action**
 
-Depending on findings:
-
-Block malicious domain/IP/URL
-
-Quarantine emails in the environment
-
-Force password reset if needed
-
-Update SIEM with indicators (IOCs)
+* Depending on findings:
+  - Block malicious domain/IP/URL
+    - Quarantine emails in the environment
+     - Force password reset if needed
+      - Update SIEM with indicators (IOCs)
 
 **# 7. Document & Report**
 
-Create a short incident note:
-
-What was found
-
-Evidence (headers, URLs, sandbox results)
-
-Steps taken
-
-Recommendations for the user
+* Create a short incident note:
+   - What was found
+   - Evidence (headers, URLs, sandbox results)
+   - Steps taken
+   - Recommendations for the user
 
 **# Tools Used**
 
-MXToolbox – SPF, DKIM, DMARC verification
-
-VirusTotal – URL and domain analysis
-
-URLScan.io – Website screenshot + behavior
-
-WHOIS / DomainTools – Domain age and ownership
-
-Header Analyzer – Visual interpretation of email headers
-
-ANY.RUN – Sandbox (if attachments exist)
+* MXToolbox – SPF, DKIM, DMARC verification
+* VirusTotal – URL and domain analysis
+* URLScan.io – Website screenshot + behavior
+* WHOIS / DomainTools – Domain age and ownership
+* Header Analyzer – Visual interpretation of email headers
+* ANY.RUN – Sandbox (if attachments exist)
 
 **# About This Project**
 
-This project is part of my cybersecurity learning journey.
-It reflects my ability to:
-
-Think like a SOC Analyst
-
-Perform structured investigations
-
-Document findings clearly
-
-Use industry tools
-
-Analyze threats safely
+* This project is part of my cybersecurity learning journey.
+* It reflects my ability to:
+  - Think like a SOC Analyst
+  - Perform structured investigations
+  - Document findings clearly
+  - Use industry tools
+  - Analyze threats safely
 
 **# Feedback Welcome**
 
-If you're a SOC professional or cybersecurity practitioner, your feedback would be valuable.
-Feel free to open an issue or share suggestions.
+* If you're a SOC professional or cybersecurity practitioner, your feedback would be valuable.
+* Feel free to open an issue or share suggestions.
