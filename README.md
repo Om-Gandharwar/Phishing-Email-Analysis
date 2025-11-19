@@ -1,9 +1,7 @@
 **Phishing Email Investigation Project -**
 
 <p align="center">
-  
- ![Image](https://github.com/user-attachments/assets/5c2dd258-c945-4e7a-9f4c-2e09b3167dc4)
- 
+   ![Image](https://github.com/user-attachments/assets/5c2dd258-c945-4e7a-9f4c-2e09b3167dc4)
 </p>
 
 **Project Overview -**
@@ -73,7 +71,7 @@
    - Steps taken
    - Recommendations for the user
 
-**# Tools Used**
+**Tools Used**
 
 * MXToolbox – SPF, DKIM, DMARC verification
 * VirusTotal – URL and domain analysis
@@ -82,7 +80,7 @@
 * Header Analyzer – Visual interpretation of email headers
 * ANY.RUN – Sandbox (if attachments exist)
 
-**# About This Project**
+**About This Project**
 
 * This project is part of my cybersecurity learning journey.
 * It reflects my ability to:
