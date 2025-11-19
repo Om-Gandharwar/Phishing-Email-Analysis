@@ -1,4 +1,4 @@
-**# Phishing Email Investigation Project -**
+**Phishing Email Investigation Project -**
 
 **##Project Overview -**
 
@@ -13,29 +13,25 @@
 * Inspect sender infrastructure, URLs, and artifacts safely.
 * Document a clean investigation report.
 
-**# Investigation Workflows - **
+**Investigation Workflows -**
 
-** 1. Email Header Check**
+**1. Email Header Check**
 
 * Extract and review the email header to verify:
-- Sender domain
-- Mail server path (Received chain)
+  - Sender domain
+   - Mail server path (Received chain)
+    - SPF, DKIM, DMARC authentication results
 
-SPF, DKIM, DMARC authentication results
-
-**# 2. Link & URL Inspection**
+**2. Link & URL Inspection -**
 
 Without clicking:
-
-Hover over URLs
-
-Extract them safely
-
-Analyze using tools like VirusTotal, URLScan, ANY.RUN
-
+* Hover over URLs
+* Extract them safely
+* Analyze using tools like VirusTotal, URLScan, ANY.RUN
+  
 Check if the domain is suspicious, newly registered, or impersonating a brand
 
-**# 3. Attachment Analysis**
+**3. Attachment Analysis**
 
 If an attachment exists:
 
@@ -43,7 +39,7 @@ Upload to sandbox (ANY.RUN, Joe Sandbox)
 
 Identify malware behavior (script execution, outbound connections)
 
-**# 4. Sender Reputation Check**
+**4. Sender Reputation Check**
 
 Use tools to validate:
 
