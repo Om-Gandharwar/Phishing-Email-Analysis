@@ -7,21 +7,19 @@
 
 **# Objectives**
 
-Understand how attackers use phishing to target users.
-Learn how L1 SOC analysts investigate suspicious emails.
-Analyze real email headers (SPF, DKIM, DMARC).
-Inspect sender infrastructure, URLs, and artifacts safely.
-Document a clean investigation report.
+* Understand how attackers use phishing to target users.
+* Learn how L1 SOC analysts investigate suspicious emails.
+* Analyze real email headers (SPF, DKIM, DMARC).
+* Inspect sender infrastructure, URLs, and artifacts safely.
+* Document a clean investigation report.
 
 **# Investigation Workflows - **
 
-**# 1. Email Header Check**
+** 1. Email Header Check**
 
-Extract and review the email header to verify:
-
-Sender domain
-
-Mail server path (Received chain)
+* Extract and review the email header to verify:
+- Sender domain
+- Mail server path (Received chain)
 
 SPF, DKIM, DMARC authentication results
 
