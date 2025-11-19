@@ -1,11 +1,11 @@
 **Phishing Email Investigation Project -**
 
-**##Project Overview -**
+**Project Overview -**
 
 * This project demonstrates a complete Phishing Email Investigation using the workflow of an L1 SOC Analyst.
 * The goal is to analyze a suspicious email’s metadata, authentication results, links, sender reputation, and overall risk to understand whether it is malicious. 
 
-**# Objectives**
+**Objectives**
 
 * Understand how attackers use phishing to target users.
 * Learn how L1 SOC analysts investigate suspicious emails.
@@ -19,16 +19,16 @@
 
 * Extract and review the email header to verify:
   - Sender domain
-   - Mail server path (Received chain)
-    - SPF, DKIM, DMARC authentication results
+  - Mail server path (Received chain)
+  - SPF, DKIM, DMARC authentication results
 
 **2. Link & URL Inspection -**
 
 * Without clicking:
  - Hover over URLs
-   - Extract them safely
-     - Analyze using tools like VirusTotal, URLScan, ANY.RUN
-       - Check if the domain is suspicious, newly registered, or impersonating a brand
+ - Extract them safely
+ - Analyze using tools like VirusTotal, URLScan, ANY.RUN
+ - Check if the domain is suspicious, newly registered, or impersonating a brand
 
 **3. Attachment Analysis**
 
@@ -44,22 +44,22 @@
 * Blacklist status
 * Email service provider used
 
-**# 5. User Impact Assessment**
+**5. User Impact Assessment**
 
 * Confirm whether the user:
  - Clicked the link
-  - Entered credentials
-   - Downloaded anything
+ - Entered credentials
+ - Downloaded anything
 
-**# 6. Take Action**
+**6. Take Action**
 
 * Depending on findings:
   - Block malicious domain/IP/URL
-    - Quarantine emails in the environment
-     - Force password reset if needed
-      - Update SIEM with indicators (IOCs)
+  - Quarantine emails in the environment
+  - Force password reset if needed
+  - Update SIEM with indicators (IOCs)
 
-**# 7. Document & Report**
+**7. Document & Report**
 
 * Create a short incident note:
    - What was found
@@ -86,7 +86,7 @@
   - Use industry tools
   - Analyze threats safely
 
-**# Feedback Welcome**
+**Feedback Welcome**
 
 * If you're a SOC professional or cybersecurity practitioner, your feedback would be valuable.
 * Feel free to open an issue or share suggestions.
