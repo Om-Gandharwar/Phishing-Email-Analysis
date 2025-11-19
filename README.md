@@ -1,8 +1,6 @@
 **Phishing Email Investigation Project -**
 
-<p align="center">
-   ![Image](https://github.com/user-attachments/assets/5c2dd258-c945-4e7a-9f4c-2e09b3167dc4)
-</p>
+![Image](https://github.com/user-attachments/assets/5171e5a8-9f12-42a1-bd3e-8b9a5e636a57)
 
 **Project Overview -**
 
